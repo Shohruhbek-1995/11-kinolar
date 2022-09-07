@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11-task kino</title>
+  <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <form class="js-form">
+        <div class="input-box">
+          <label for="qidir">
+            <input class="js-film-name-input mt-5 p-1 form-control" type="text" placeholder="search" id="qidir">
+          </label>
+        </div>
+      </form>
+      <output class="js-result-fil-name"></output>
+      <ul class="js-list d-flex flex-wrap list-unstyled justify-content-between"></ul>
+    
+    
+    </div>
+  </section>
+<template id="item">
+    <li class="js-border list-unstyled mt-3">
+      <h2 class="heading text-center"></h2>
+      <p class="film-year text-center"></p>
+      <p class="film-genres text-center"></p>
+  </li>
+  </template>
+  <script src="./script/movies.js"></script>
+  <script src="./script/utils.js"></script>
+  <script src="./script/main.js"></script>
+</body>
+</html>

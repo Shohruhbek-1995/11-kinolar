@@ -1,0 +1,17 @@
+.section{
+  background-color: aquamarine;
+}
+
+.js-border{
+  width: 200px;
+  border: 1px solid black;
+}
+
+.input-box{
+  display: flex;
+  justify-content: center;
+}
+
+.js-film-name-input{
+  width: 300px;
+}
